@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+    </head>
+    <body>
+        <p>목차</p>
+        <ol>
+            <li><a href="./ex01.html">h1~h6 태그</a></li>
+            <li><a href="./ex02.html">p br blockquote q strong b em i 태그</a></li>
+            <li><a href="./ex03.html">ol ul li 태그</a></li>
+            <li><a href="./ex04.html">img a 태그</a></li>
+            <li><a href="./ex05.html">table thead tbody tr th td 태그</a></li>
+            <li><a href="./ex06.html">테이블 합치기 태그</a></li>
+            <li><a href="./ex07.html">thead tbody tfoot 태그</a></li>
+            <li><a href="./ex08.html">테이블 종합 연습문제</a></li>
+        </ol>
+        <hr>
+        
+
+        <h1>html태그</h1>
+        <h2>6. 테이블 합치기 태그</h2>
+
+        <p>가로합치기</p>
+        <table border="1">
+            <tr>
+                <td colspan="3">1,1</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td colspan="2">2,2</td>
+            </tr>
+            <tr>
+                <td colspan="2">3,1</td>
+                <td>3,3</td>
+            </tr>    
+        </table>
+
+
+        <p>세로합치기</p>
+        <table border="1">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td rowspan="2">1,3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2,1</td>
+                <td>2,2</td>
+                <!--td 2,3-->
+            </tr>
+            <tr>
+                <!--td 3,1-->
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+
+
+        <p>가로세로합치기</p>
+        <table border="1">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2,1</td>
+                <td colspan="2">2,2</td>
+                <!-- 2,3 -->
+            </tr>
+            <tr>
+                <!-- 3,1-->
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table border="1">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2,1</td>
+                <td colspan="2">2,2</td>
+                <!-- 2,3 -->
+            </tr>
+            <tr>
+                <!-- 3,1 -->
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+
+        
+        <p>연습문제</p>
+
+
+
+    </body>
+
+</html>
